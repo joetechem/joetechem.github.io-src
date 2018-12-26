@@ -1,3 +1,3 @@
 [submodule "output"]
 	path = output
-	url = $GH_TOKEN@github.com:joetechem/joetechem.github.io.git
+	url = https://$GH_TOKEN@github.com:joetechem/joetechem.github.io.git
