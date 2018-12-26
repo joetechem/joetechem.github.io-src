@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joe Seiler'
 SITENAME = "Joe's Calepin"
-SITEURL = ''
+SITEURL = 'https://joetechem.github.io'
 
 PATH = 'content'
 
@@ -33,3 +33,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+GITHUB_URL = u'https://github.com/joetechem'
