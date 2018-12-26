@@ -5,7 +5,7 @@ install:
 - pip install ghp-import
 script:
 - make github
-#- git remote remove origin
+- git remote remove origin
 - git remote add origin https://$GH_TOKEN@github.com/joetechem/joetechem.github.io-src
 - git push -u origin master
 env:
