@@ -6,6 +6,8 @@ AUTHOR = 'Joe Seiler'
 SITENAME = "Joe's Calepin"
 SITEURL = 'https://joetechem.github.io'
 
+THEME = "themes/pelican-blue"
+
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
@@ -26,8 +28,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/josef-seiler-315560111'),
+          ('github', 'https://github.com/joetechem'),
+          ('twitter', '#'),
+          )
 
 DEFAULT_PAGINATION = 10
 
