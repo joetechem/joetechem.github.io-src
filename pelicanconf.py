@@ -14,7 +14,7 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-DEFAULT_DATE_FORMAT = u'%Y-%m-%d'
+#DEFAULT_DATE_FORMAT = u'%Y-%m-%d'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -55,8 +55,8 @@ GITHUB_URL = u'https://github.com/joetechem'
 #MENUITEMS = (('Blog', SITEURL),)
 
 # Nest
-NEST_HEADER_IMAGES = 'network.jpg'
-NEST_HEADER_LOGO = '/images/orange-logo.png'
+NEST_HEADER_IMAGES = 'cloud-rain.jpg'
+#NEST_HEADER_LOGO = '/images/orange-logo.png'
 NEST_INDEX_HEAD_TITLE = u'Notebook'
 NEST_INDEX_HEADER_TITLE = u'Notebook'
 NEST_INDEX_HEADER_SUBTITLE = u'Learn something new'
