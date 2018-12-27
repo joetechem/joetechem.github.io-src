@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Joe Seiler'
-SITENAME = "Joe's Calepin"
+SITENAME = 'Calepin Joe'
 SITEURL = 'https://joetechem.github.io'
 
 THEME = "themes/nest"
@@ -56,8 +56,8 @@ GITHUB_URL = u'https://github.com/joetechem'
 
 # Nest
 NEST_HEADER_IMAGES = 'raspberry-pi-stock.jpg'
-NEST_HEADER_LOGO = '/images/notebook-logo.png'
-NEST_INDEX_HEAD_TITLE = u'Notebook'
-NEST_INDEX_HEADER_TITLE = u'Notebook'
+NEST_HEADER_LOGO = '/images/notebook-logo.jpg'
+NEST_INDEX_HEAD_TITLE = u'Calepin Joe'
+NEST_INDEX_HEADER_TITLE = u'Calepin Joe'
 NEST_INDEX_HEADER_SUBTITLE = u'Learn something new'
 NEST_INDEX_CONTENT_TITLE = u'Last Posts'
