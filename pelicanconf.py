@@ -55,8 +55,8 @@ GITHUB_URL = u'https://github.com/joetechem'
 #MENUITEMS = (('Blog', SITEURL),)
 
 # Nest
-NEST_HEADER_IMAGES = 'cloud-rain.jpg'
-#NEST_HEADER_LOGO = '/images/orange-logo.png'
+NEST_HEADER_IMAGES = 'raspberry-pi-stock.jpg'
+NEST_HEADER_LOGO = '/images/notebook-logo.png'
 NEST_INDEX_HEAD_TITLE = u'Notebook'
 NEST_INDEX_HEADER_TITLE = u'Notebook'
 NEST_INDEX_HEADER_SUBTITLE = u'Learn something new'
