@@ -6,7 +6,7 @@ AUTHOR = 'Joe Seiler'
 SITENAME = "Joe's Calepin"
 SITEURL = 'https://joetechem.github.io'
 
-THEME = "themes/pelican-blue"
+#THEME = "~/pelican-themes/pelican-blue"
 
 PATH = 'content'
 
@@ -38,4 +38,13 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-GITHUB_URL = u'https://github.com/joetechem'
+#GITHUB_URL = u'https://github.com/joetechem'
+
+# pelican-blue
+#FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+#SIDEBAR_DIGEST = 'Programmer and Web Developer'
+#FAVICON = 'url-to-favicon'
+#DISPLAY_PAGES_ON_MENU = True
+#TWITTER_USERNAME = 'twitter-user-name'
+#MENUITEMS = (('Blog', SITEURL),)
