@@ -22,17 +22,20 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html
 
 ***  
 
-* EC2 Instance Types (DrMcGIFTpx)  
-    - D = D2: Dense Storage --> Fileservers/Data Warehousing/Hadoop   
-    - R = R4: Memory Optimized (think RAM) --> Memory Intensive Apps/DBs  
-    - M = M4: General Purpose --> Good for production, App Servers  
-    - C = C4: Compue Optimized --> CPU Intensive Apps/DBs  
-    - G = G2: Graphics Intensive --> Viedo Encoding/3D App Streaming  
-    - I = I2: High Speed Storage (IOPS) --> NoSQL DBs, Data Warehousing etc  
-    - F = F1: Field Programmable Gate Array --> Hardware accleration for your code  
-    - T = T2: Lowest Cost General Purpose --> Web Servers/Small DBs, usually used for test/dev  
-    - P = P2: Graphics/General Purpose GPU (think pictures) --> Machine Learning, Bitcoin Mining etc  
-    - X = X1: Memory Optimized (Xtreme RAM) --> SAP HANA/Apache Spark etc  
+## EC2 - Instance Types *DrMcGIFTPX*  
+
+| Family  | Specialty                     |  Use Case                           |
+|---------|-------------------------------| ----------------------------------  |
+| D2      | Dense Storage                 | Filservers/Data Warehousing/Hadoop  |
+| R4      | Memory Optimized              | Memory Intensive Apps/DBs           |
+| M4      | General Purpose               | Application Servers                 |
+| C4      | Compute Optimized             | CPU Intensive Apps/DBs              |
+| G2      | Graphics Intensive            | Video Encoding/3D App Streaming     |
+| I2      | High Speed Storage            | NoSQL DBs, Data Warehousing etc     |
+| F1      | Field Programmable Gate Array | Hardware acceleration for your code |
+| T2      | Lowest Cost, General Purpose  | Web Servers/Small DBs               |
+| P2      | Graphics/General Purpose GPU  | Machine Learning, Bit Coin Mining   | 
+| X1      | Memory Optimized              | SAP HANA/Apache Spark etc           |  
 
 ***  
 
