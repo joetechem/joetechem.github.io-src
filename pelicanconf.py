@@ -15,7 +15,7 @@ TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = 'en'
 
-#DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 #DEFAULT_DATE_FORMAT = '{slug}Y-{slug}m-{slug}d'
 
 # Feed generation is usually not desired when developing
