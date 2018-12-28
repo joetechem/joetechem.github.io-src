@@ -10,11 +10,13 @@ THEME = "themes/nest"
 
 PATH = 'content'
 
-TIMEZONE = 'America/New_York'
+#TIMEZONE = 'America/New_York'
+TIMEZONE = 'US/Eastern'
 
+#DEFAULT_LANG = 'en'
 DEFAULT_LANG = 'en'
 
-#DEFAULT_DATE_FORMAT = u'%Y-%m-%d'
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,14 +30,11 @@ MENUITEMS = (('Home', 'https://joetechem.github.io'),
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Python.org', 'http://python.org/'))
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/josef-seiler-315560111'),
           ('github', 'https://github.com/joetechem'),
-          ('twitter', '#'),
           )
 
 DEFAULT_PAGINATION = 10
@@ -43,7 +42,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-GITHUB_URL = u'https://github.com/joetechem'
+GITHUB_URL = 'https://github.com/joetechem'
 
 # pelican-blue
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -57,7 +56,7 @@ GITHUB_URL = u'https://github.com/joetechem'
 # Nest
 NEST_HEADER_IMAGES = 'raspberry-pi-stock.jpg'
 NEST_HEADER_LOGO = '/images/notebook-logo.jpg'
-NEST_INDEX_HEAD_TITLE = u'Calepin Joe'
-NEST_INDEX_HEADER_TITLE = u'Calepin Joe'
-NEST_INDEX_HEADER_SUBTITLE = u'Learn something new'
-NEST_INDEX_CONTENT_TITLE = u'Last Posts'
+NEST_INDEX_HEAD_TITLE = 'Calepin Joe'
+NEST_INDEX_HEADER_TITLE = 'Calepin Joe'
+NEST_INDEX_HEADER_SUBTITLE = 'Learn something new'
+NEST_INDEX_CONTENT_TITLE = 'Last Posts'

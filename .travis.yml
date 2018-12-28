@@ -7,7 +7,7 @@ script:
 - make github
 - git remote remove origin
 - git remote add origin https://$GH_TOKEN@github.com/joetechem/joetechem.github.io-src
-- git push -f origin master
+- git push -u origin master
 env:
   global:
     secure: AiosmK1z0Di+2h/TYWctFunxiAmEAZAp01qiNlkNbyhBqnxyo4NCzsZZb0wbwpT3fx/Tsfy8hV1mtFd5lZaalkSzOkMI6P7QZ+q4bw/aw6rT+6Pga2YSmft6guV4XDglVArSz3D1rcs/2RDoRTnhYQZTz1K0uyILFTZTrA68GGhXMLc/Fg2xV6i8GqanUJBa6PZ1Jtzorsu5UUF2NxbbIsC7kgkCubm3lj9pbIIXhEMpawudz3unf9HmxqmhfOclZuBF07l3Zpa0mOGw+R2F9ts72uiczFGHI0lIU4XVToxG6FH5tQvEC3iCre+fms3jDB1dVYAmz+Zq5KWsxpyUNJwMH++rMJSwRZdBFOnUZzIncwk97uxauoO2TVAjY5G4LbJRjMYkyYD8Ki5qmKRBIre2rs3nuHHyGmDuDT0pGKSGOCKGYU2pIoSyGc1pX1AWYUQKaHrZ5LvmV8ZnbPVNT5p7g7E01YLdQQIt2ik3rh1O9Jhg2pv2Dp1uRsPtjm5hXyr8nLLPeDWn2iNN51F9gsUfUb3cWFFQerFwMi2sn7wv0EjGGrCgdo6lpXX4GA8+ykCvHT2n/3s4X11fj92boJkiUSFKwC+wWrwd3VVFprRKAnfYuTxnKb8bwvGJcCQjCKP5T8uEczn3/WyyNRywuq9AzTdZ8mPPxJd8v5QSnvg=
