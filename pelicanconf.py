@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Joe Seiler'
-SITENAME = 'Calepin Joe'
+AUTHOR = u'Joe Seiler'
+SITENAME = u'Calepin Joe'
 SITEURL = 'https://joetechem.github.io'
 
-THEME = "themes/nest"
+THEME = 'themes/nest'
 
 PATH = 'content'
 
 #TIMEZONE = 'America/New_York'
-TIMEZONE = 'US/Eastern'
+TIMEZONE = u'US/Eastern'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
-#DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+DEFAULT_DATE_FORMAT = u'%Y-%m-%d'
 #DEFAULT_DATE_FORMAT = '{slug}Y-{slug}m-{slug}d'
 
 # Feed generation is usually not desired when developing
@@ -56,7 +56,7 @@ GITHUB_URL = u'https://github.com/joetechem'
 
 # Nest
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
-NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html')]
+NEST_SITEMAP_MENU = [(u'Archives', '/archives.html'),(u'Tags','/tags.html')]
 
 NEST_HEADER_IMAGES = 'raspberry-pi-stock.jpg'
 NEST_HEADER_LOGO = '/images/notebook-logo.jpg'
