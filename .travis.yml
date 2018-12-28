@@ -1,7 +1,7 @@
 language: python
 install:
 - pip install markdown
-- pip install pelican==r3.6.3
+- pip install pelican
 - pip install ghp-import
 script:
 - make github

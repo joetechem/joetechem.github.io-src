@@ -9,11 +9,12 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
+# commenting out below after base.html change (commit 9c99451)
 # from tips and tricks
-PAGESDIR=$(INPUTDIR)/pages
-DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
-SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
-EXT ?= md
+#PAGESDIR=$(INPUTDIR)/pages
+#DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
+#SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
+#EXT ?= md
 
 #GITHUB_PAGES_BRANCH=master
 
