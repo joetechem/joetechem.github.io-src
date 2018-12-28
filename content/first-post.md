@@ -1,8 +1,9 @@
-Title: Ready To Go Live    
+Title: Ready To Go Live  
 Author: Joe Seiler  
 Date: 2018-12-26   
-Category: Tutorials    
-Tags: pelican, wp, cpanel, whm   
+Category: tutorials  
+Tags: pelican, wp, cpanel, whm  
+Slug: ready-to-go-live  
 
 # **Standard** WordPress Site Rollout  
 

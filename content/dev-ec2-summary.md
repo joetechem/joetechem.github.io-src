@@ -3,6 +3,7 @@ Author: Joe Seiler
 Date: 2018-12-27   
 Category: Amazon   
 Tags: aws, ec2, developer, cloud  
+Slug: ec2-summary  
 
 # EC2 - Summary/Exam Tips  
 

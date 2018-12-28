@@ -13,10 +13,10 @@ PATH = 'content'
 #TIMEZONE = 'America/New_York'
 TIMEZONE = 'US/Eastern'
 
-#DEFAULT_LANG = 'en'
 DEFAULT_LANG = 'en'
 
-DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+#DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+#DEFAULT_DATE_FORMAT = '{slug}Y-{slug}m-{slug}d'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,8 +25,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MENUITEMS = (('Home', 'https://joetechem.github.io'),
-             ('About', 'https://joetechem.github.io'))
+#MENUITEMS = (('Home', 'https://joetechem.github.io'), ('About', 'https://joetechem.github.io'))
+MENUITEMS = [('Home', 'https://joetechem.github.io'), ('About', 'https://joetechem.github.io')]
+
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -42,7 +43,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-GITHUB_URL = 'https://github.com/joetechem'
+GITHUB_URL = u'https://github.com/joetechem'
 
 # pelican-blue
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -54,9 +55,13 @@ GITHUB_URL = 'https://github.com/joetechem'
 #MENUITEMS = (('Blog', SITEURL),)
 
 # Nest
+NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
+NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html')]
+
 NEST_HEADER_IMAGES = 'raspberry-pi-stock.jpg'
 NEST_HEADER_LOGO = '/images/notebook-logo.jpg'
-NEST_INDEX_HEAD_TITLE = 'Calepin Joe'
-NEST_INDEX_HEADER_TITLE = 'Calepin Joe'
-NEST_INDEX_HEADER_SUBTITLE = 'Learn something new'
-NEST_INDEX_CONTENT_TITLE = 'Last Posts'
+NEST_INDEX_HEAD_TITLE = u'Calepin Joe'
+NEST_INDEX_HEADER_TITLE = u'Calepin Joe'
+NEST_INDEX_HEADER_SUBTITLE = u'Learn something new'
+NEST_INDEX_CONTENT_TITLE = u'Last Posts'
+NEST_COPYRIGHT = u'&copy; blogname 2018'

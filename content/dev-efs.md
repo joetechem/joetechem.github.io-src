@@ -3,6 +3,7 @@ Author: Joe Seiler
 Date: 2018-12-27   
 Category: Amazon  
 Tags: aws, ec2, efs, developer, cloud  
+Slug: efs-high-level  
 
 # EFS - Elastic File System  
 
