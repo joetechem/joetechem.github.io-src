@@ -1,7 +1,7 @@
 Title: EC2 Summary   
 Author: Joe Seiler  
 Date: 2018-12-27   
-Category: AWS    
+Category: Amazon   
 Tags: aws, ec2, developer, cloud  
 
 # EC2 - Summary/Exam Tips  

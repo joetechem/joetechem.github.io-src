@@ -1,7 +1,7 @@
 Title: AWS CLI  
 Author: Joe Seiler  
 Date: 2018-12-27   
-Category: AWS    
+Category: Amazon     
 Tags: aws, ec2, developer, cloud, cli  
 
 # AWS CLI - Using IAM User Credentials  

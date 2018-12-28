@@ -1,7 +1,7 @@
 Title: EFS High Level  
 Author: Joe Seiler  
 Date: 2018-12-27   
-Category: AWS    
+Category: Amazon  
 Tags: aws, ec2, efs, developer, cloud  
 
 # EFS - Elastic File System  
